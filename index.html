@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>jfuller Learning Technologist RRU</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  </head>
+  <body>
+    <!-- Custom made table here -->
+    <div class="tg-wrap"><table class="tg">
+      <thead>
+        <tr>
+          <th contenteditable class="tg-3i7k" width=210>Assignment</th>
+          <th contenteditable class="tg-3i7k" width=210>Due Date</th>
+          <th contenteditable class="tg-3i7k" colspan="6">Competencies</th>
+          <th contenteditable class="tg-3i7k" rowspan="2">Total<br>  %<br></th>
+        </tr>
+        <tr>
+          <td class="tg-3i7k"></td>
+          <td class="tg-3i7k"></td>
+          <td contenteditable class="tg-acrh">A</td>
+          <td contenteditable class="tg-acrh">B1</td>
+          <td contenteditable class="tg-acrh">B2</td>
+          <td contenteditable class="tg-acrh">C</td>
+          <td contenteditable class="tg-acrh">D</td>
+          <td contenteditable class="tg-acrh">G</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td contenteditable class="tg-0pky">Assignment 1</td>
+          <td contenteditable class="tg-0pky">Unit 1</td>
+          <td contenteditable class="tg-0pky">20</td>
+          <td contenteditable class="tg-0pky"></td>
+          <td contenteditable class="tg-0pky"></td>
+          <td contenteditable class="tg-0pky">5</td>
+          <td contenteditable class="tg-0pky">10</td>
+          <td contenteditable class="tg-0pky"></td>
+          <td contenteditable class="tg-0pky">35%</td>
+        </tr>
+        <tr>
+          <td contenteditable class="tg-0pky">Assignment 2</td>
+          <td contenteditable class="tg-0pky">Unit 3</td>
+          <td contenteditable class="tg-0pky"></td>
+          <td contenteditable class="tg-0pky"></td>
+          <td contenteditable class="tg-0pky">15</td>
+          <td contenteditable class="tg-0pky"></td>
+          <td contenteditable class="tg-0pky">5</td>
+          <td contenteditable class="tg-0pky">5</td>
+          <td contenteditable class="tg-0pky">25%</td>
+        </tr>
+        <tr>
+          <td contenteditable class="tg-0pky">Assignment 3</td>
+          <td contenteditable class="tg-0pky">Unit 6</td>
+          <td contenteditable class="tg-0pky"></td>
+          <td contenteditable class="tg-0pky">15</td>
+          <td contenteditable class="tg-0pky"></td>
+          <td contenteditable class="tg-0pky">15</td>
+          <td contenteditable class="tg-0pky"></td>
+          <td contenteditable class="tg-0pky">10</td>
+          <td contenteditable class="tg-0pky">40%</td>
+        </tr>
+        <tr>
+          <td class="tg-0pky">Total (%)</td>
+          <td class="tg-0pky"></td>
+          <td contenteditable class="tg-0pky">20%</td>
+          <td contenteditable class="tg-0pky">15%</td>
+          <td contenteditable class="tg-0pky">15%</td>
+          <td contenteditable class="tg-0pky">20%</td>
+          <td contenteditable class="tg-0pky">15%</td>
+          <td contenteditable class="tg-0pky">15%</td>
+          <td contenteditable class="tg-0pky">100%</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+    <section id="about">
+
+        <div class="about">
+          <h3>Web Page creation</h3>
+          <p>For the table above I created a skeleton html file in Atom to start with then added some preconnect links for fonts, added a title and linked to my stylesheet. I then started to try and create a table by hand but realized how much time it was going to take and found an online table generator to make the basic table structure. If you have an industry approved tool that saves time, then I believe it makes you more efficient!  I then went through the code I got from that tool and fixed the spacing, added the text values, and chose the background colors for the header cells.  This proved to be difficult as I couldn't find a way to get the Chrome color selector tool to grab color data from a .png image so I had to try to get the best color match by hand.  I think the assignment colors are the old RRU scheme because I couldn't find a match on any current RRU pages.</p>
+          <p>I realized after creating the table that while my version has editable fields, it doesn't have working formulas to calculate the total percentages in the last column and bottom row but to do this properly in Javascript from scratch is something I am still learning</p>
+          <p>I thought that under normal circumstances if I was given a table of data to put on a web page, it would more than likely already include data and it would also likely come from Excel or an editable table from Word.  So I created a working table with formulas by first making the table in Excel, adding in the correct calculations for each cell, column, and row, then converting the table to html and adding it to the web page for the table you see below.</p>
+        </div>
+        <div class="exceltable">
+            <TABLE border=1 align=left cellpadding=1 cellspacing=0>
+          <TR>
+          <TD contenteditable width=213 bgcolor=#222B35 align=left><FONT face=Calibri size=2 color=#FFFFFF><B>Assignment</B></FONT></TD>
+          <TD contenteditable width=210 bgcolor=#222B35 align=left><FONT face=Calibri size=2 color=#FFFFFF><B>Due Date</B></FONT></TD>
+          <TD contenteditable width=439 bgcolor=#222B35 COLSPAN=6 align=center><FONT face=Calibri size=2 color=#FFFFFF><B>Competencies</B></FONT></TD>
+          <TD contenteditable width=62 bgcolor=#222B35 align=left><FONT face=Calibri size=2 color=#FFFFFF><B>Total</B></FONT></TD>
+          </TR>
+          <TR>
+          <TD width=422 bgcolor=#222B35 COLSPAN=2 align=left><FONT face=Calibri size=2 color=#FFFFFF><B>&nbsp;</B></FONT></TD>
+          <TD contenteditable width=73 bgcolor=#5B9BD5 align=center><FONT face=Calibri size=2 color=#000000><B>A</B></FONT></TD>
+          <TD contenteditable width=73 bgcolor=#5B9BD5 align=center><FONT face=Calibri size=2 color=#000000><B>B1</B></FONT></TD>
+          <TD contenteditable width=73 bgcolor=#5B9BD5 align=center><FONT face=Calibri size=2 color=#000000><B>B2</B></FONT></TD>
+          <TD contenteditable width=73 bgcolor=#5B9BD5 align=center><FONT face=Calibri size=2 color=#000000><B>C</B></FONT></TD>
+          <TD contenteditable width=73 bgcolor=#5B9BD5 align=center><FONT face=Calibri size=2 color=#000000><B>D</B></FONT></TD>
+          <TD contenteditable width=73 bgcolor=#5B9BD5 align=center><FONT face=Calibri size=2 color=#000000><B>G</B></FONT></TD>
+          <TD contenteditable width=62 bgcolor=#222B35 align=center><FONT face=Calibri size=2 color=#FFFFFF><B>%</B></FONT></TD>
+          </TR>
+          <TR>
+          <TD contenteditable contenteditable width=213 align=left><FONT face=Calibri size=2 color=#000000><B>Assignment 1</B></FONT></TD>
+          <TD contenteditable width=210 align=left><FONT face=Calibri size=2 color=#000000><B>Unit 1</B></FONT></TD>
+          <TD contenteditable contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>20</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>&nbsp;</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>&nbsp;</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>5</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>10</B></FONT></TD>
+          <TD contenteditable width=73 align=left><FONT face=Calibri size=2 color=#000000><B>&nbsp;</B></FONT></TD>
+          <TD width=62 align=right><FONT face=Calibri size=2 color=#000000><B>35%</B></FONT></TD>
+          </TR>
+          <TR>
+          <TD contenteditable width=213 align=left><FONT face=Calibri size=2 color=#000000><B>Assignment 2</B></FONT></TD>
+          <TD contenteditable width=210 align=left><FONT face=Calibri size=2 color=#000000><B>Unit 3</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>&nbsp;</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>&nbsp;</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>15</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>&nbsp;</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>5</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>5</B></FONT></TD>
+          <TD width=62 align=right><FONT face=Calibri size=2 color=#000000><B>25%</B></FONT></TD>
+          </TR>
+          <TR>
+          <TD contenteditable width=213 align=left><FONT face=Calibri size=2 color=#000000><B>Assignment 3</B></FONT></TD>
+          <TD contenteditable width=210 align=left><FONT face=Calibri size=2 color=#000000><B>Unit 6</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>&nbsp;</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>15</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>&nbsp;</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>15</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>&nbsp;</B></FONT></TD>
+          <TD contenteditable width=73 align=center><FONT face=Calibri size=2 color=#000000><B>10</B></FONT></TD>
+          <TD width=62 align=right><FONT face=Calibri size=2 color=#000000><B>40%</B></FONT></TD>
+          </TR>
+          <TR>
+          <TD contenteditable width=213 align=left><FONT face=Calibri size=2 color=#000000><B>Total (%)</B></FONT></TD>
+          <TD width=210 align=left><FONT face=Calibri size=2 color=#000000><B>&nbsp;</B></FONT></TD>
+          <TD width=73 align=center><FONT face=Calibri size=2 color=#000000><B>20%</B></FONT></TD>
+          <TD width=73 align=center><FONT face=Calibri size=2 color=#000000><B>15%</B></FONT></TD>
+          <TD width=73 align=center><FONT face=Calibri size=2 color=#000000><B>15%</B></FONT></TD>
+          <TD width=73 align=center><FONT face=Calibri size=2 color=#000000><B>20%</B></FONT></TD>
+          <TD width=73 align=center><FONT face=Calibri size=2 color=#000000><B>15%</B></FONT></TD>
+          <TD width=73 align=center><FONT face=Calibri size=2 color=#000000><B>15%</B></FONT></TD>
+          <TD width=62 align=right><FONT face=Calibri size=2 color=#000000><B>100%</B></FONT></TD>
+          </TR>
+          <TR>
+          </TABLE>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+        <div class="bestpractice">
+              <h3>HMTL best practices applied to online learning</h3>
+              <ul>
+                <li>Make sure the formatting, text size, and font choices maxmimize readability, especially for anyone who may have a visual impairment.</li>
+                <li>Make sure the choice of font colors and the background/graphics choices ensure a viable contrast level and are also useable in color blind modes (e.g. no colour).</li>
+                <li>Make sure there is a central page or location that is the only place where important dates are listed so when you need to update a time/date/location, you don't need to hunt down obscure locations to change the data.</li>
+                <li>Make sure that titles of all assignments, activities, and filenames are consistent throughout the course.  This avoids confusion for students and also makes for fewer mistakes while coding the pages and links.</li>
+                <li>If your links are pointing to 3rd party provided content, you must check these links on a regular basis to make sure they still work. Best practice would be to host this material yourself on a separate server.</li>
+                <li>Make sure links show where they are actually pointing to and not obfuscated like bit.ly links.</li>
+                <li>Use external style sheets and not inline styles to improve formatting consistency.</li>
+                <li>Always include alt text for any images or links for use with screen readers.</li>
+                <li>Make sure that it is clear what is expected of students, e.g. what are your individual assignments and due dates, what are your team assignments etc.</li>
+              </ul>
+        </div>
+    </section>
+
+
+
+
+  </body>
+    <footer id="contact" class="grey-background">
+         <div class="footercontainer">
+           <div class="container-left">
+             <h1 class="name">Jeremy Fuller</h1>
+             <h3 class="occupation">Designer &amp; Developer</h3>
+           </div>
+           <div class="container-right">
+             <ul>
+               <li><a href="mailto:jeremydfuller@gmail.com" alt="email link">Email Me</a></li>
+               <li><a href="tel:12509206437" alt="phone number">Call me!</a></li>
+               <li><a href="https://www.linkedin.com/in/jeremy-fuller-533996154/" target="_blank" alt="linkedin">LinkedIn</a></li>
+               <li><a href="https://github.com/jerdful" target="_blank" alt="link to GitHub">GitHub</a></li>
+             </ul>
+           </div>
+         </div>
+    </footer>
+</html>

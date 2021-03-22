@@ -1,0 +1,105 @@
+section h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+section h3 {
+  font-size: 19px;
+  font-weight: bold;
+}
+.about, .bestpractice {
+  width: 600px;
+  text-align:left;
+  word-wrap:normal;
+  padding-left: 20px;
+}
+
+.tg  {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+.tg td{
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  overflow:hidden;
+  padding:5px 18px;
+  word-break:normal;
+}
+.tg th{
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  overflow:hidden;
+  padding:5px 18px;
+  word-break:normal;
+}
+.tg .tg-3i7k{
+  background-color:#222B35;
+  color: white;
+  border-color:inherit;
+  text-align:center;
+  vertical-align:top
+}
+.tg .tg-acrh{
+  background-color:#5B9BD5;
+  border-color:inherit;
+  text-align:left;
+  vertical-align:top
+}
+.tg .tg-0pky{
+  border-color:inherit;
+  text-align:center;
+  vertical-align:top
+}
+@media screen and (max-width: 767px) {
+  .tg {
+    width: auto !important;
+    }
+    .tg col {
+      width: auto !important;
+      }
+      .tg-wrap {
+        overflow-x: auto;-webkit-overflow-scrolling: touch;
+      }
+  }
+
+
+/* body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+} */
+
+/* css for footer section */
+.footercontainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media(max-width: 767.98px) {
+  .footercontainer {
+    flex-direction: column;
+  }
+}
+.footercontainer .container-left {
+  text-align: right;
+  width:50%;
+  padding-right: 15px;
+}
+.footercontainer .container-right {
+  width:50%;
+  padding-right: 15px;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: 400;
+}
+.occupation {
+  font-size: 19px;
+  font-weight: 400;
+}
